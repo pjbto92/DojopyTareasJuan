@@ -1,0 +1,68 @@
+
+
+* {
+    font-family: ;
+    /* font-size: 10px; */
+    font-weight: bold;
+    line-height: 20px;
+}
+
+
+
+h1 {
+    background-color: yellow;
+    color: blue;
+}
+
+
+#contenedor1 {
+    background-color: green;
+    color: white;
+}
+
+
+#contenedor2 {
+    background-color: blue;
+    color: yellow;
+}
+
+.contenedor3 {
+    background-color: brown;
+    color: white;
+    font-weight: bold;
+}
+
+
+#contenedor1, #contenedor2 {
+    font-size: 30px;
+}
+
+
+
+div .primer-hijo {
+    background-color: aqua;
+    color: green;
+}
+
+
+
+.padre .primer-hijo {
+    padding: 20px;
+}
+
+.padre .ultimo-hijo {
+    background-color: green;
+    padding: 10px;
+}
+
+/* selector descendiente */
+.padre .primer-hijo .segundo-hijo {
+    background-color: red;
+}
+
+
+/* // selector child directo */
+div #contenedor1 > p {
+    color: pink;
+    font-size: 40px;
+}

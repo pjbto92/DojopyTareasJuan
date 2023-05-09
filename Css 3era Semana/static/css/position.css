@@ -1,0 +1,104 @@
+
+
+* {
+    font-family: 'Varela Round', sans-serif;
+}
+
+.caja1 {
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    background-color: brown;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    color: white;
+    margin: 10px;
+} 
+
+
+.caja2 {
+    position: absolute;
+    left: 200px;
+    top: 200px;
+    background-color: rgb(202, 16, 158);
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    color: white;
+    margin: 10px;
+} 
+
+
+
+.caja3 {
+    position: relative;
+    left: 100px;
+    top: 100px;
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    color: white;
+    margin: 10px;
+} 
+
+
+.caja4 {
+    position: relative;
+    left: 100px;
+    top: 100px;
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    color: white;
+    margin: 10px;
+} 
+
+.caja5 {
+    position: relative;
+    left: 100px;
+    top: 100px;
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    color: white;
+    margin: 10px;
+} 
+
+
+
+
+.container-padre {
+    left: 100px;
+    top: 100px;
+    width: 500px;
+    height: 500px;
+    /* background-color: orange; */
+    border: 10px solid orange;
+
+    position: absolute;
+}
+
+
+.boton-call {
+    position: fixed;
+    bottom: 1px;
+    right: 1px;
+    font-size: 20px;
+    color: white;
+    width: 70px;
+    height: 70px;
+    background-color: green;
+    border-radius: 50%;
+}
+
+
+.whatsapp {
+    font-size: 30px;
+    position: relative;
+    top: 30%;
+    left: 30%;
+}

@@ -1,0 +1,62 @@
+
+
+.btn-comprar {
+    font-size: 20px;
+    background-color: purple;
+}
+
+
+.btn-registro {
+    font-size: 20px;
+    background-color: green;
+}
+
+
+
+.btn-comprar:focus {
+    background-color: yellow;
+    font-size: 30px;
+}
+
+
+.btn-registro:hover {
+    background-color: rgb(230, 184, 230);
+    font-size: 30px;
+    border: none;
+    padding: 20px;
+}
+
+
+.btn-registro:active {
+    background-color: rgb(28, 224, 201);
+}
+
+
+.btn-login {
+    transition: transform 0.3s;
+    background-color: rgb(231, 31, 118);
+}
+
+.btn-login:hover {
+    transform: scale(1.8);
+}
+
+
+.gato {
+    transition: transform 0.3s;
+}
+
+.gato:hover {
+    transform: scale(1.5);
+    box-shadow: 4px 5px 10px 1px grey;
+}
+
+
+
+div > button:first-child  {
+    font-size: 50px;
+}
+
+div > button:last-child  {
+    font-size: 50px;
+}

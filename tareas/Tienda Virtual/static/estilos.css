@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-size: cover;       
+}   
+
+.h1{
+    font-size: 100px;
+
+}
+
+.main{
+    width: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.contenedor_cards{
+    width: 100%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    flex-wrap: wrap;
+    background-image: url(https://rankiapro.com/es/wp-content/uploads/2019/08/fondo-tecnologico-preferido-selectores.jpg);
+    
+    
+    
+}
+
+.card{
+    background-color: grey;
+    width: 30px;
+    height: auto;
+    border-radius: 40px;
+    box-shadow: 4px 8px 19px -3px rgba(102, 90, 90, 0.27);
+}
+

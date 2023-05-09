@@ -1,0 +1,85 @@
+*{
+    
+    color: #fff;
+    font-family: sans-serif;
+    
+}
+
+
+body{
+    background-image: url(/formulario-CSS/Imagen/descarga.jpg);
+    background-position: 100%;
+}
+
+.login{
+    margin: auto;
+    margin-top: 50px;
+    width: 30%;
+    padding: 30px;
+    background: rgba(133, 118, 197, 0.4);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 7.5px );
+    -webkit-backdrop-filter: blur( 7.5px );
+    border-radius: 50px;
+}
+
+form{
+    margin: 0 auto;
+
+}    
+
+
+form h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.field-form{
+    width: 85%;
+    border-radius: 25px;
+    background: rgba( 0, 74, 255, 0.05 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+    padding: 10px;
+    border: solid 2px #fff;
+    color: #fff;
+    border-radius: 25px;
+
+}
+
+
+.campos{
+    padding-top: 50px;
+    padding-left: 30px;
+}
+
+.olvidaste{
+    text-align: center;
+}
+
+
+
+.btn{
+    border: solid rgba(255, 255, 255, 0.464);
+    padding: 10px;
+    background: rgba( 0, 74, 255, 0.3 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );   
+    border-radius: 10px;
+    cursor: pointer;
+    width: 90%;
+
+}
+
+
+.btn:hover{
+    transition: 0.5s;
+    color: rgb(254, 171, 254);
+    transform: scale(1.1);
+}
+
+
+

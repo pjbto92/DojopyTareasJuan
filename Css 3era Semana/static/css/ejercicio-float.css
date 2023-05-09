@@ -1,0 +1,50 @@
+
+* {
+    background-color: black;
+    color: white;
+}
+
+header {
+    height: 99px;
+    border: 2px solid aqua ;
+}
+
+nav {
+    width: 200px;
+    padding: 10px;
+    float: right;
+    border: 2px solid orange;
+}
+
+main {
+    border: 2px solid aqua ;
+}
+
+
+
+footer {
+    border: 2px solid aqua;
+    clear: both;
+}
+
+
+section {
+    width: 70%;
+    float: left;
+    border: 2px solid orange ;
+    margin: 10px;
+}
+
+
+aside {
+    margin-top: -80px;
+    border: 2px solid orange;
+    width: 20%;
+    height: 250px;
+    float: right;
+}
+
+
+article {
+    border: 2px solid blue ;
+}
